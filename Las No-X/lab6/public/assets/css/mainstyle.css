@@ -1,0 +1,40 @@
+﻿body{background: #fff;margin:0;padding:0;font:16px/24px Arial,Tahoma,sans-serif;background-image: url(images/fon.jpg);background-repeat:no-repeat;background-size: cover;}
+a{text-decoration:none;}
+/*Структура документа*/
+div.header{background:#000000;opacity:0.8;padding-right: 10px;margin:0 auto;position: fixed;z-index: 2;max-width: 100%;min-width:99.2%;height: 85px;text-align: left;}
+div.dropdown{float:right;}
+div.time{text-align: center;font-family:'Micra', arial; position: absolute;margin-top: -10px; margin-left: 5px;}
+div.logotype{text-align: left;float: left;}
+div.topmenu{float:left;height:70px; line-height:70px; }
+div.topmenu a{margin:0 0 0 10px;color:#FFFAFA;font-family:'Micra', arial; }
+div.topmenu a:hover{color:#aaa;}
+div.afisha img{min-width: 960px;max-width: 100%;margin: 0 auto;padding: 0;position: relative;}
+div.testbtn{position: absolute;z-index: 1;text-align: center; top: 60%;left: 45%;background: #000000;border: 3px solid #FFFAFA;padding: 5px 15px;border-radius: 3px;box-shadow: 2px 2px 7px -1px #777;opacity: 0.8;}
+div.afisha a{color:#FFFAFA;font-family:'FreeSet', arial; font-weight: bold;}
+div.afisha a:hover{color:#aaa;}
+div.topick{position: absolute;z-index: 300;text-align: center; top: 40%;right:3%;padding: 5px 15px;border-radius: 3px;opacity: 0.8;}
+div.topick p{margin:0 0 0 10px;color:#FFFAFA;font-family:'Micra', arial;text-shadow: 4px 4px 4px #000000;}
+div.mid{width:1000px;margin: 0 auto;}
+div.fon{background: #fff;border:1px solid #CCC;border-top:none;padding: 40px;}
+div.block{width: 440px;float:left;}
+div.dropdowns{float: left;}
+div.block:nth-of-type(even){float:right;}
+div.param{background: #f5f5f5;border:1px solid #CCC;padding: 20px;border-radius: 3px;}
+div.param h3{font-size: 20px;margin:20px 0 10px; color:#696969; text-align: center;padding: 0;line-height: 20px;font-family:'FreeSet', arial;}
+div.param:hover{background: #e0eff4;border:1px solid #bfd5dd;}
+div.inner img{min-width: 960px;max-width: 100%;margin: 0 auto;padding: 0;position: absolute; top: 115%;z-index: -1;}
+ @media (min-aspect-ratio: 16/9) {
+     #trailer > video { height: 300%; top: -100%; }
+ }
+ @media (max-aspect-ratio: 16/9) {
+     #trailer > video { width: 300%; left: -100%; }
+ }
+ @supports (object-fit: cover) {
+     #trailer > video {
+ top: 0; left: 0;
+  width: 100%; height: 100%;
+ object-fit: cover;
+ }
+ }
+
+div.clear{clear:both;}
